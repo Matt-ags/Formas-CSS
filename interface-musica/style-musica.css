@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #272727;
+}
+
+/* criando o fundo, o pai dos elementos: */
+
+.fundo{
+
+    width: 1000px;
+    height: 430px;
+    background-color: rgba(217, 217, 217, 1);
+    clip-path: inset(10% round 25px);
+    position: relative;
+    border-bottom: rgb(255, 255, 255);
+    border-right: rgb(255, 255, 255);
+
+    align-items: center;
+
+
+}
+
+/* criando botão central: */
+
+.botao{
+
+    clip-path: polygon(0 0, 0 100%, 100% 53%);
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top:60%;
+    left: 50%;
+    
+
+
+}
+
+.circulo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%; color: #000000;
+    background-color: rgba(255, 255, 255, 0.226);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-59%, -50%);
+    top:60%;
+    left: 50%;
+
+
+}
+
+/* criando as opções de navegação: */
+
+#arrowr{
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-color:#272727;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top:60%;
+    left: 60%;
+
+
+
+}
+
+#arrowl{
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);;
+    background-color:#272727;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 38%;
+
+}
+
+#estrela{
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: rgb(177, 150, 0);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 80%;
+
+}
+
+#no{
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color:#27272773;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 20%;
+
+}
+
+/* criando o carregamento: */
+#p1{
+    width: 300px;
+    height: 10px;
+    background-color:#000000;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top:35%;
+    left: 35%;
+
+}
+
+#ponto{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:#000000;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top:35%;
+    left: 50%;
+
+}
+
+#p2{
+    width: 300px;
+    height: 10px;
+    background-color:#27272773;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top:35%;
+    left: 65%;
+
+}
+
+/* adicionando animações: */
+
+.container-setas div:hover{
+    transform: scale(1.1) black;
+    cursor: pointer;
+}
+
+/* não sei porque outras animações não estão dando certo, talvez prourar mais futuramente? */

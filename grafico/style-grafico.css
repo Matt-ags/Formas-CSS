@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    /* margin: 0; */
+    /* display: flex; */
+    height: 100vh;
+    background-color: #272727;
+}
+
+/* começando a criação dos eixos: */
+/* RELEMBRANDO:     PRA EIXO X: "justify-content" E PRA EIXO Y:"align-items" */
+h1{
+    margin-top: 1vh;
+    margin-left: 60vh;
+    font-family: sans-serif; color: azure;
+}
+
+a{
+    color: rgb(220, 239, 255);
+}
+
+a:hover{
+    color: aquamarine;
+}
+.plano{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eixox{
+    position: fixed;
+    width: 1700px;
+    height: 10px;
+    background-color: azure;
+    margin-top: 161.6vh;
+
+}
+
+#eixoy{
+    position: fixed;
+    width: 10px;
+    height: 700px;
+    background-color: azure;
+    margin-top: 100vh;
+    margin-right: 1600px;
+
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 270px;
+    font-family: Impact; color: rgb(80, 80, 80);
+    
+}
+
+#c1:hover, #c2:hover, #c3:hover, #c4:hover{
+    background-color: rgb(130, 221, 224);
+    cursor: pointer;
+}
+#c1{
+    width: 30px;
+    height: 250px;
+    background-color: cadetblue;
+    margin-top: 250px;
+}
+#c2{
+    width: 30px;
+    height: 300px;
+    background-color: cadetblue;
+    margin-top: 200px;
+}
+#c3{
+    width: 30px;
+    height: 500px;
+    background-color: cadetblue;
+}
+#c4{
+    width: 30px;
+    height: 400px;
+    background-color: cadetblue;
+    margin-top: 100px 
+}
+
+.dados{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* cadetblue pras barras e azure pras linhas */

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #f85741;
+}
+
+.header{
+    background-color: #1e1801;
+    font-family: sans-serif; color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rodape{
+    background-color: #1e1801;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif; color: azure;
+    font-weight: bold;
+}
+
+button{
+    background-color: #f39708;
+    padding: 1em 1em;
+    margin: 0.5em;
+    border: 0;
+    border-radius: 15%;
+}
+
+button:hover{
+    background-color: #dacdac;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
